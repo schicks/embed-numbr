@@ -1,0 +1,398 @@
+{
+  "AAVE": {
+    "name": "Aave",
+    "dp": 8
+  },
+  "ADA": {
+    "name": "Cardano",
+    "dp": 8
+  },
+  "ALGO": {
+    "name": "Algorand",
+    "dp": 8
+  },
+  "ALINK": {
+    "name": "ALINK",
+    "dp": 8
+  },
+  "ALPHA": {
+    "name": "ALPHA",
+    "dp": 8
+  },
+  "AMPL": {
+    "name": "AMPL",
+    "dp": 8
+  },
+  "ATOM": {
+    "name": "Cosmos",
+    "dp": 8
+  },
+  "AVAX": {
+    "name": "Avalanche",
+    "dp": 8
+  },
+  "BAL": {
+    "name": "BAL",
+    "dp": 8
+  },
+  "BAND": {
+    "name": "BAND",
+    "dp": 8
+  },
+  "BAT": {
+    "name": "BAT",
+    "dp": 8
+  },
+  "BCH": {
+    "name": "Bitcoin Cash",
+    "dp": 8
+  },
+  "BNB": {
+    "name": "Binance Coin",
+    "dp": 8
+  },
+  "BSV": {
+    "name": "BSV",
+    "dp": 8
+  },
+  "BTC": {
+    "name": "Bitcoin",
+    "dp": 8
+  },
+  "BTT": {
+    "name": "BTT",
+    "dp": 8
+  },
+  "BUSD": {
+    "name": "Binance USD",
+    "dp": 8
+  },
+  "CDAI": {
+    "name": "Compound Dai",
+    "dp": 8
+  },
+  "CEL": {
+    "name": "CEL",
+    "dp": 8
+  },
+  "CELO": {
+    "name": "CELO",
+    "dp": 8
+  },
+  "CETH": {
+    "name": "Compound Ether",
+    "dp": 8
+  },
+  "CHSB": {
+    "name": "CHSB",
+    "dp": 8
+  },
+  "COMP": {
+    "name": "COMP",
+    "dp": 8
+  },
+  "CRO": {
+    "name": "Crypto.com Chain",
+    "dp": 8
+  },
+  "CRV": {
+    "name": "CRV",
+    "dp": 8
+  },
+  "CUSDC": {
+    "name": "CUSDC",
+    "dp": 8
+  },
+  "DAI": {
+    "name": "Dai",
+    "dp": 8
+  },
+  "DASH": {
+    "name": "DASH",
+    "dp": 8
+  },
+  "DCR": {
+    "name": "DCR",
+    "dp": 8
+  },
+  "DGB": {
+    "name": "DGB",
+    "dp": 8
+  },
+  "DOGE": {
+    "name": "Dogecoin",
+    "dp": 8
+  },
+  "DOT": {
+    "name": "Polkadot",
+    "dp": 8
+  },
+  "EGLD": {
+    "name": "Elrond",
+    "dp": 8
+  },
+  "ENJ": {
+    "name": "ENJ",
+    "dp": 8
+  },
+  "EOS": {
+    "name": "EOS",
+    "dp": 8
+  },
+  "ETC": {
+    "name": "Ethereum Classic",
+    "dp": 8
+  },
+  "ETH": {
+    "name": "Ethereum",
+    "dp": 8
+  },
+  "FIL": {
+    "name": "FIL",
+    "dp": 8
+  },
+  "FTM": {
+    "name": "Fantom",
+    "dp": 8
+  },
+  "FTT": {
+    "name": "FTX Token",
+    "dp": 8
+  },
+  "GRT": {
+    "name": "GRT",
+    "dp": 8
+  },
+  "HBAR": {
+    "name": "Hedera HashGraph",
+    "dp": 8
+  },
+  "HBTC": {
+    "name": "HBTC",
+    "dp": 8
+  },
+  "HT": {
+    "name": "HT",
+    "dp": 8
+  },
+  "HUSD": {
+    "name": "HUSD",
+    "dp": 8
+  },
+  "ICX": {
+    "name": "ICX",
+    "dp": 8
+  },
+  "IOST": {
+    "name": "IOST",
+    "dp": 8
+  },
+  "KNC": {
+    "name": "KNC",
+    "dp": 8
+  },
+  "KSM": {
+    "name": "KSM",
+    "dp": 8
+  },
+  "LEO": {
+    "name": "LEO",
+    "dp": 8
+  },
+  "LINK": {
+    "name": "Chainlink",
+    "dp": 8
+  },
+  "LRC": {
+    "name": "LRC",
+    "dp": 8
+  },
+  "LTC": {
+    "name": "Litecoin",
+    "dp": 8
+  },
+  "LUNA": {
+    "name": "Terra",
+    "dp": 8
+  },
+  "MDX": {
+    "name": "MDX",
+    "dp": 8
+  },
+  "MIOTA": {
+    "name": "MIOTA",
+    "dp": 8
+  },
+  "MKR": {
+    "name": "MKR",
+    "dp": 8
+  },
+  "NANO": {
+    "name": "NANO",
+    "dp": 8
+  },
+  "NEO": {
+    "name": "NEO",
+    "dp": 8
+  },
+  "NEXO": {
+    "name": "NEXO",
+    "dp": 8
+  },
+  "NXM": {
+    "name": "NXM",
+    "dp": 8
+  },
+  "OKB": {
+    "name": "OKB",
+    "dp": 8
+  },
+  "OMG": {
+    "name": "OMG",
+    "dp": 8
+  },
+  "ONT": {
+    "name": "ONT",
+    "dp": 8
+  },
+  "PAX": {
+    "name": "PAX",
+    "dp": 8
+  },
+  "QNT": {
+    "name": "QNT",
+    "dp": 8
+  },
+  "QTUM": {
+    "name": "QTUM",
+    "dp": 8
+  },
+  "REN": {
+    "name": "REN",
+    "dp": 8
+  },
+  "RENBTC": {
+    "name": "RENBTC",
+    "dp": 8
+  },
+  "RSR": {
+    "name": "RSR",
+    "dp": 8
+  },
+  "RUNE": {
+    "name": "RUNE",
+    "dp": 8
+  },
+  "SC": {
+    "name": "SC",
+    "dp": 8
+  },
+  "SNX": {
+    "name": "SNX",
+    "dp": 8
+  },
+  "SOL": {
+    "name": "Solana",
+    "dp": 8
+  },
+  "STX": {
+    "name": "STX",
+    "dp": 8
+  },
+  "SUSHI": {
+    "name": "SUSHI",
+    "dp": 8
+  },
+  "THETA": {
+    "name": "Theta Token",
+    "dp": 8
+  },
+  "TRX": {
+    "name": "TRON",
+    "dp": 8
+  },
+  "TUSD": {
+    "name": "TUSD",
+    "dp": 8
+  },
+  "UMA": {
+    "name": "UMA",
+    "dp": 8
+  },
+  "UNI": {
+    "name": "Uniswap",
+    "dp": 8
+  },
+  "USDC": {
+    "name": "USDC",
+    "dp": 8
+  },
+  "USDT": {
+    "name": "Tether USD",
+    "dp": 8
+  },
+  "UST": {
+    "name": "UST",
+    "dp": 8
+  },
+  "VET": {
+    "name": "VeChain",
+    "dp": 8
+  },
+  "VGX": {
+    "name": "VGX",
+    "dp": 8
+  },
+  "WAVES": {
+    "name": "WAVES",
+    "dp": 8
+  },
+  "WBTC": {
+    "name": "Wrapped BTC",
+    "dp": 8
+  },
+  "XEM": {
+    "name": "XEM",
+    "dp": 8
+  },
+  "XLM": {
+    "name": "Stellar",
+    "dp": 8
+  },
+  "XMR": {
+    "name": "Monero",
+    "dp": 8
+  },
+  "XRP": {
+    "name": "XRP",
+    "dp": 8
+  },
+  "XTZ": {
+    "name": "Tezos",
+    "dp": 8
+  },
+  "XVG": {
+    "name": "XVG",
+    "dp": 8
+  },
+  "YFI": {
+    "name": "YFI",
+    "dp": 8
+  },
+  "ZEC": {
+    "name": "ZEC",
+    "dp": 8
+  },
+  "ZEN": {
+    "name": "ZEN",
+    "dp": 8
+  },
+  "ZIL": {
+    "name": "ZIL",
+    "dp": 8
+  },
+  "ZRX": {
+    "name": "ZRX",
+    "dp": 8
+  }
+}

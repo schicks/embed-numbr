@@ -1,0 +1,115 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --line-height: 1.6rem;
+  --font-size: 1rem;
+  --font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', ui-monospace, monospace;
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-result: #6b7280;
+  --color-result-value: #059669;
+  --color-placeholder: #9ca3af;
+  --color-scrollbar: #e5e7eb;
+  --editor-padding: 2rem;
+  --results-width: 180px;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+#app {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Editor column */
+#editor-wrap {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: var(--editor-padding);
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-scrollbar) transparent;
+}
+
+#editor-wrap::-webkit-scrollbar {
+  width: 6px;
+}
+
+#editor-wrap::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#editor-wrap::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar);
+  border-radius: 3px;
+}
+
+/* Tiptap editor styles */
+.tiptap {
+  outline: none;
+  min-height: 100%;
+  caret-color: var(--color-text);
+}
+
+.tiptap p {
+  line-height: var(--line-height);
+  min-height: var(--line-height);
+  /* prevent margin collapse that would break result alignment */
+  margin: 0;
+}
+
+/* Placeholder */
+.tiptap p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  color: var(--color-placeholder);
+  pointer-events: none;
+  float: left;
+  height: 0;
+}
+
+/* Results column */
+#results {
+  width: var(--results-width);
+  flex-shrink: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: var(--editor-padding) 1rem var(--editor-padding) 0;
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: none; /* hide scrollbar — synced via editor scroll */
+  pointer-events: none;
+}
+
+#results::-webkit-scrollbar {
+  display: none;
+}
+
+.result-line {
+  line-height: var(--line-height);
+  min-height: var(--line-height);
+  text-align: right;
+  color: var(--color-result);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-line.has-value {
+  color: var(--color-result-value);
+}
+
+/* Sync results scroll with editor scroll */
