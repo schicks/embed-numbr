@@ -61,6 +61,26 @@ if (initialText) {
   renderResults(results)
 }
 
+// Copy URL button — lets users persist the current state manually
+const copyUrlBtn = document.getElementById('copy-url') as HTMLButtonElement
+copyUrlBtn.addEventListener('click', () => {
+  // Flush any pending hash update immediately before copying
+  if (hashTimeout) {
+    clearTimeout(hashTimeout)
+    hashTimeout = null
+    const text = editor.getText({ blockSeparator: '\n' })
+    history.replaceState(null, '', '#' + encodeContent(text))
+  }
+  navigator.clipboard.writeText(location.href).then(() => {
+    copyUrlBtn.textContent = 'Copied!'
+    copyUrlBtn.classList.add('copied')
+    setTimeout(() => {
+      copyUrlBtn.textContent = 'Copy URL'
+      copyUrlBtn.classList.remove('copied')
+    }, 2000)
+  })
+})
+
 // Sync results column scroll with the editor scroll
 const editorWrap = document.getElementById('editor-wrap')!
 const resultsEl = document.getElementById('results')!
