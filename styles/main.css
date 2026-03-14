@@ -113,3 +113,33 @@ html, body {
 }
 
 /* Sync results scroll with editor scroll */
+
+/* Copy URL button */
+#copy-url {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.25rem 0.6rem;
+  font-family: var(--font-family);
+  font-size: 0.75rem;
+  color: var(--color-placeholder);
+  background: transparent;
+  border: 1px solid var(--color-scrollbar);
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.15s, color 0.15s, border-color 0.15s;
+  z-index: 10;
+}
+
+#copy-url:hover {
+  opacity: 1;
+  color: var(--color-text);
+  border-color: var(--color-result);
+}
+
+#copy-url.copied {
+  color: var(--color-result-value);
+  border-color: var(--color-result-value);
+  opacity: 1;
+}
